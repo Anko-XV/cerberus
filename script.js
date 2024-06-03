@@ -22,7 +22,7 @@ const progressImages = [
     "./images/progress 80%.png",
     "./images/progress 100%.png"
 ];
-
+// score gekopplet aan progress.//
 const updateScore = () => {
     if (score < 0) score = 0;
     if (score > 5) score = 5;
