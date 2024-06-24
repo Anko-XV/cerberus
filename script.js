@@ -28,7 +28,6 @@ function updateScore() {
         if (evolutionStage > 0) {
             evolutionStage--;
             neutral.src = images[evolutionStage];
-            document.getElementById("objective").innerText = 'Cerberus reverted!';
         }
         score = 0;
     }
